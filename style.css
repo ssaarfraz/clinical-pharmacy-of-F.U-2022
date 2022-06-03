@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+h2 {
+    font-family: "Luckiest Guy", cursive;
+    margin-bottom: 0.3rem;
+    font-size: 4rem;
+    /* color: #3366ff; */
+    color: white;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding: 0.75em;
+    /* background: #ff6347; */
+    background: #ff6347;
+    color: white;
+    padding: 20px 30px;
+    font-weight: bold;
+    /* border-radius: 999px; */
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: monospace;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin-bottom: 100px;
+}
+
+button:hover {
+    background: #e3563d;
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 3rem;
+    }
+    button {
+        font-size: 1rem;
+    }
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,900&display=swap"); */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://scontent.fcai20-4.fna.fbcdn.net/v/t39.30808-6/272989428_4828484870568856_2699678246631671745_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8631f5&_nc_ohc=16G0LNvDNsIAX_sEBts&tn=tm0xCUBeieAyXlhA&_nc_ht=scontent.fcai20-4.fna&oh=00_AT8-OOntjf3j_b8htBGX_SDUWe90QEm-3JDzLZC9OgLZQA&oe=62A05B19);
+    /* background-size: 100%; */
+    background-size: cover;
+    background-position: center center;
+    /* background-repeat: round; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    font-weight: normal;
+}
+h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #a9c9ff;
+    background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+    text-align: center;
+}
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 0.75;
+    margin: 0rem 3rem;
+    background: -webkit-linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cd-el {
+    text-align: center;
+    background: -webkit-linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cd-el span {
+    font-size: 1.5rem;
+}
+.backgrounds {
+    background-color: #a9c9ff;
+    background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
